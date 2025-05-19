@@ -5,12 +5,14 @@ django-cors-headers==4.7.0
 djangorestframework==3.16.0
 drf-yasg==1.21.10
 future==1.0.0
+gunicorn==23.0.0
 importlib_resources==6.5.2
 inflection==0.5.1
 jsonschema==4.23.0
 jsonschema-specifications==2025.4.1
 packaging==25.0
 pillow==11.2.1
+python-decouple==3.8
 pytz==2025.2
 PyYAML==6.0.2
 referencing==0.36.2
@@ -21,4 +23,3 @@ swagger-spec-validator==3.0.4
 typing_extensions==4.13.2
 tzdata==2025.2
 uritemplate==4.1.1
-gunicorn
