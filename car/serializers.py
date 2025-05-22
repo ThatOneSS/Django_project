@@ -10,6 +10,8 @@ class CompanySerializer(serializers.ModelSerializer):
         model = Company
         fields = '__all__'
 class CarSerializer(serializers.ModelSerializer):
+    region=serializers.StringRelatedField()
+    company=serializers.StringRelatedField()
     class Meta:
         model = Car
         fields = '__all__'
